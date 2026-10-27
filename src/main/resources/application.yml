@@ -21,4 +21,4 @@ spring:
 payment:
   gateway:
     endpoint-url: "https://api.mockpayment.com/v1/charge"
-    api-key: ${PAYMENT_API_KEY:sk_test_sample_secret_key_12345}
+    api-key: ${PAYMENT_API_KEY:sk_test_sample_secret_key_12345}276bd6f
