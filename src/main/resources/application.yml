@@ -4,7 +4,7 @@ spring:
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5433/ordering_db}
     username: ${DB_USER:postgres}
-    password: ${DB_PASSWORD:secretpassword}
+    password: ${DB_PASSWORD:*****}
 payment:
   gateway:
     api-key: ${PAYMENT_API_KEY:sk_test_sample_secret_key_12345}
